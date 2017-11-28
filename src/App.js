@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
 
-import CarriersList from './containers/list.js';
+import CarriersList from './containers/carriers-list.js';
 import FlightsDetail from './containers/flights-detail.js'
 
 class App extends Component {
