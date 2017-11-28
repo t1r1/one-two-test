@@ -1,0 +1,46 @@
+body {
+  margin: 10px;
+  padding: 0;
+  font-family: 'Helvetica Neue', Tahoma, Verdana, Arial, sans-serif;
+}
+
+select {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.flight-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flight-card {
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin: 10px 20px 10px 0;
+  padding: 10px 0 30px;
+  width: 30%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.flight-city {
+  font-weight: bold;
+}
+
+.arrow {
+  padding: 0 8px;
+}
+
+.flight-card small {
+  color: grey;
+  font-size: 65%;
+}
+
+.flight-card h3 {
+  background-color: #ccf;
+  color: #004;
+  padding: 2px 8px;
+  margin-top: 0;
+  text-align: left;
+}
